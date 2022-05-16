@@ -1,0 +1,12 @@
+SlNo,Exam Code,Subject ( No of Attempts ),Month & Year,FinalGrade,Credits,Status
+1,20MTC03,Differential Equations & Transform Theory,August 2021,S,3.0,PASS
+2,20CYC01,Chemistry,August 2021,A,3.0,PASS
+3,20ITC01,Data Structures and Algorithms,August 2021,S,3.0,PASS
+4,20ITC02,Object Oriented Programming using Python,August 2021,S,2.0,PASS
+5,20MTC04,Differential Equations &Transform Theory Lab,August 2021,A,1.0,PASS
+6,20CYC02,Chemistry Lab,August 2021,S,2.0,PASS
+7,20ITC03,Data Structures and Algorithms Lab,August 2021,S,1.0,PASS
+8,20ITC04,Object Oriented Programming using Python Lab,August 2021,S,1.0,PASS
+9,20MEC02,Workshop / Manufacturing Practice,August 2021,B,2.5,PASS
+10,20MEC03,Engineering Exploration,August 2021,S,1.5,PASS
+,,SGPA : 9.55,CGPA : 9.50,,,

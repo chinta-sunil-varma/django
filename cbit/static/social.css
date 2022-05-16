@@ -1,0 +1,59 @@
+body
+{
+    background-color: black;
+}
+.scrap
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #001219;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.imgsty
+{
+    margin: 50px;
+}
+#endhtwo
+{
+    color: yellowgreen;
+}
+.para
+{
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+td
+{
+    color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ font
+{
+    display: block;
+    color: beige !important;
+    font-family: 'Montserrat' !important;
+}
+.main
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+    align-items: center;
+    display: inline-block;
+    padding-left: 50%;
+    padding-right: 50%;
+}
+.main input
+{
+    display: block;
+}
+h2
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aquamarine;
+}
+th
+{
+    color: whitesmoke;
+    font-family: 'Montserrat';
+}

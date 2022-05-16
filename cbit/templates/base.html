@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>social</title>
+    <link rel="stylesheet" href="static/social.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mohave:ital,wght@1,300&family=Montserrat:wght@300&family=Oswald:wght@300&family=Roboto:ital,wght@1,300&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h2 id="endhtwo">CBIT MISC</h2>
+    <p class="para">
+      Check out the results of your semister or your attendance to calculate the
+      bunk percentage for futrure bunks!(beta)
+    </p>
+    <centre>
+      <h2>ERP LOGIN</h2>
+      <form action="" class="main" method="post">
+        {% csrf_token %} ERP USERNAME <input type="text" name="usr" /> ERP
+        PASSWORD <input type="password" name="pass" /> SEM NO
+        <input type="text" name="sem" />
+        <button type="submit">Fetch</button>
+      </form>
+    </centre>
+    <section class="scrap">
+      {% autoescape off %}
+      {{html}}
+  {% endautoescape %} 
+      
+    </section>
+  </body>
+</html>
